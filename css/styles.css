@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Outfit:wght@400;700&family=Pacifico&family=Roboto&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.rect {
+  width: 91%;
+  height: 70%;
+  background-color: hsl(212, 45%, 89%);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Sombra */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  width: 250px;
+  height: 400px;
+  background-color: #fff; /* Color blanco para el rectángulo interno */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Sombra */
+  border-radius: 10px; /* Bordes redondeados de 10px */
+}
+
+img {
+  width: 250px;
+  height: 250px;
+  padding: 15px;
+  position: relative;
+  border-radius: 25px; /* Bordes redondeados de 10px */
+  box-sizing: border-box; /* Mantén los bordes redondeados incluso sin padding */
+}
+
+h2 {
+  padding: 0px 20px;
+  color: hsl(218, 44%, 22%);
+  font-size: 18px;
+  text-align: center;
+  font-family: "Outfit", sans-serif;
+  font-weight: 700;
+}
+
+p {
+  padding: 10px 15px;
+  font-size: 14px;
+  text-align: center;
+  font-family: "Outfit", sans-serif;
+  color: hsl(220, 15%, 55%);
+  font-weight: 400;
+}
